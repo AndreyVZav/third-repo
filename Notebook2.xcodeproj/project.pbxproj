@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55D7BEE2BF79DB100B3A451 /* NotebookScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55D7BED2BF79DB100B3A451 /* NotebookScreen.swift */; };
 		B5A3DE882BEFDA4A00D17B10 /* Notebook2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3DE872BEFDA4A00D17B10 /* Notebook2App.swift */; };
 		B5A3DE8A2BEFDA4A00D17B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3DE892BEFDA4A00D17B10 /* ContentView.swift */; };
 		B5A3DE8C2BEFDA4C00D17B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A3DE8B2BEFDA4C00D17B10 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B55D7BED2BF79DB100B3A451 /* NotebookScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookScreen.swift; sourceTree = "<group>"; };
 		B5A3DE842BEFDA4A00D17B10 /* Notebook2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notebook2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A3DE872BEFDA4A00D17B10 /* Notebook2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook2App.swift; sourceTree = "<group>"; };
 		B5A3DE892BEFDA4A00D17B10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				B5A3DE872BEFDA4A00D17B10 /* Notebook2App.swift */,
 				B5A3DE892BEFDA4A00D17B10 /* ContentView.swift */,
+				B55D7BED2BF79DB100B3A451 /* NotebookScreen.swift */,
 				B5A3DE8B2BEFDA4C00D17B10 /* Assets.xcassets */,
 				B5A3DE8D2BEFDA4C00D17B10 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				B5A3DE8A2BEFDA4A00D17B10 /* ContentView.swift in Sources */,
 				B5A3DE882BEFDA4A00D17B10 /* Notebook2App.swift in Sources */,
+				B55D7BEE2BF79DB100B3A451 /* NotebookScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Notebook2;
+				PRODUCT_BUNDLE_IDENTIFIER = "zav.av-bk.ru";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Notebook2;
+				PRODUCT_BUNDLE_IDENTIFIER = "zav.av-bk.ru";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
