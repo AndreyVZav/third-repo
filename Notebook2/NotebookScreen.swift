@@ -35,7 +35,7 @@ class NotesManager: ObservableObject {
         }
     }
     // варжврпжшвкрпэвкпрвап
-    
+    // elkrhgdhrgdrghdrg
 }
 
 struct NotebookScreen: View {
